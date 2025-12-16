@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascendancy"
+	group: "1E3C4B5FFAE48A39"
+	icon: "blue_skies:soul_fragment"
+	id: "341A901B4933D0AC"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B57F45BE30AA5F2"]
+			description: [
+				"Conclua a missão “Ato II” mencionada na tarefa para ganhar automaticamente os pontos de ascendência!"
+				""
+				"{ \"text\": \"Defensores do Nether II\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B57F45BE30AA5F2\" } } "
+				""
+				"&eEsses Pontos de Ascendência são compartilhados entre seus personagens (consulte o menu Personagem no Hub).&r"
+				""
+				"&cSe as missões forem reiniciadas através da opção  \"Reiniciar Missões da Campanha Principal\" em Recompensas (desbloqueada no Ato IV), essas missões permanecerão concluídas.&r"
+			]
+			id: "17F9635AF7CDEA18"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 3"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "3FE6B8CF6B61EE20"
+				silent: true
+				title: "3 pontos de ascendência"
+				type: "command"
+			}]
+			subtitle: "Ascendência dos Novatos"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:book"
+				id: "1A4E5F840A029C7F"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Defensores do Nether II"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17F9635AF7CDEA18"
+				"46DB9530C236A4AD"
+			]
+			description: [
+				"Conclua a missão &eAto III&r mencionada na tarefa para ganhar automaticamente os pontos de ascendência!"
+				""
+				"{ \"text\": \"Nadador escorregadio\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46DB9530C236A4AD\" } } "
+				""
+				"&eEsses Pontos de Ascendência são compartilhados entre seus personagens (consulte o menu Personagem no Hub).&r"
+				""
+				"&cSe as missões forem reiniciadas através da opção \"Reiniciar Missões da Campanha Principal\" Recompensas (desbloqueada no Ato IV), essas missões permanecerão concluídas.&r"
+			]
+			id: "7E712A56BE4C40B7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "52EC28D99FEEDDD8"
+				silent: true
+				title: "2 pontos de ascendência"
+				type: "command"
+			}]
+			subtitle: "Ascendência cruel"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Registro #12\n\nOntem à tarde, a capitã Cornelia foi ao fundo do mar em busca de recursos adicionais. Há rumores entre a tripulação de que o verdadeiro objetivo da expedição é outro.\"}"
+							"{\"text\":\"Mais de um dia se passou desde o mergulho da capitã. Ela estava usando o único traje de mergulho que tínhamos, então não pudemos ajudá-la de forma alguma. O pior de tudo é que ela estava com a chave mestra. À medida que nossas esperanças de resgate diminuem, a ameaça de rebelião cresce.\"}"
+						]
+						resolved: 1b
+						title: "Diário de bordo do navio dos saqueadores"
+					}
+				}
+				id: "5042FB25C4207F1B"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Nadador escorregadio"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E712A56BE4C40B7"
+				"69FD852AE0306BD2"
+			]
+			description: [
+				"Conclua a missão do &eAto V&r mencionada na tarefa para ganhar automaticamente os pontos de ascendência!"
+				""
+				"{ \"text\": \"Eles sabiam que você viria\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } } "
+				""
+				"&evEsses Pontos de Ascendência são compartilhados entre seus personagens (consulte o menu Personagem no Hub).&r"
+				""
+				"&cSe as missões forem reiniciadas através da opção  \"Reiniciar Missões da Campanha Principal\" em Recompensas (desbloqueada no Ato IV), essas missões permanecerão concluídas.&r"
+			]
+			id: "05F71CA8CB6A9B71"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "34D7610A95635B7B"
+				silent: true
+				title: "2 pontos de ascendência"
+				type: "command"
+			}]
+			subtitle: "Ascendência Implacável"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "59D4B5D606051069"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Eles sabiam que você viria"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07EBFDA1B8808DAF"
+				"005E75571665043C"
+				"56B2B51011037E61"
+				"6B2C722AC00A07C0"
+				"05F71CA8CB6A9B71"
+			]
+			description: [
+				"Conclua as &e 4 missões do epílogo&r mencionadas abaixo para ganhar automaticamente os pontos de ascendência!"
+				""
+				"{ \"text\": \"A Torre Congelada (The Frozen Tower)\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07EBFDA1B8808DAF\" } } "
+				""
+				"{ \"text\": \"As Profundezas Ardentes (The Ardent Depths)\", \"color\": \"red\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"005E75571665043C\" } } "
+				""
+				"{ \"text\": \"As extensas vinhas (The Sprawling Vinelands)\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"56B2B51011037E61\" } } "
+				""
+				"{ \"text\": \"A Fortaleza Galvânica (The Galvanic Stronghold)\", \"color\": \"dark_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B2C722AC00A07C0\" } } "
+				""
+				"&eEsses Pontos de Ascendência são compartilhados entre seus personagens (consulte o menu Personagem no Hub).&r"
+				""
+				"&cSe as missões forem reiniciadas através da opção \"Reiniciar Missões da Campanha Principal\" Recompensas (desbloqueada no Ato IV), essas missões permanecerão concluídas.&r"
+			]
+			id: "087DA043F088CC11"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
+				icon: "ftb_ph:ascend"
+				id: "54F6B95B27F25CA8"
+				silent: true
+				title: "2 pontos de ascendência"
+				type: "command"
+			}]
+			subtitle: "Ascendente"
+			tasks: [{
+				disable_toast: true
+				icon: "handcrafted:stackable_book"
+				id: "1BE3C1B048BD304B"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Epílogo Chefes Elementais"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Ascendência"
+}

@@ -1,0 +1,1735 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epilogue"
+	group: "1E3C4B5FFAE48A39"
+	hide_quest_until_deps_complete: true
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "5A7D6B87115D3B91"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"Finalmente... suas anotações de suas várias aventuras te trouxeram para &eO Outro Lado&r."
+				""
+				"Desde seus humildes começos no &eMundo Superior&r, jornada perigosa através do &eNether&r e &eSubterrâneo&r, encontros no &eEverbright e Everdawn&r, e encontros próximos em &eO Fim&r, você está agora no que acredita ser a fonte do mal."
+				""
+				"O que aquele pesquisador na vila chamou isso? Uma \"briga\" entre os &bTitãs Primitivos&r? De acordo com o pesquisador, deveria ser suficiente apenas eliminar as quatro criaturas elementais encontradas em &eO Fim&r e &eO Outro Lado&r."
+				""
+				"Prepare-se para embarcar em sua missão final! Não há como eles voltarem depois de matá-los, certo..?"
+			]
+			icon: "minecraft:paper"
+			id: "749D138B0222E744"
+			rewards: [{
+				id: "6222458583FAAFB2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "A Página Final Perdida"
+			tasks: [{
+				id: "67B1853D30A8EE31"
+				title: "Clique Uma Vez para Ler"
+				type: "checkmark"
+			}]
+			title: "Males Primitivos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"O &eLich Noturno&r reside na &eTorre do Lich&r encontrada em &eRochedos de Cristais (Crystal Crag)&r no &eThe End&r."
+				"Para encontrar a estrutura, você pode criar &eEstrelas da Alma (Soul Star)&r e usá-las para ser guiado na direção da &eTorre do Lich&r mais próxima!"
+				""
+				"&cO Lich Noturno spawna no nível mínimo de 90 e na Raridade Mítica.&r"
+				""
+				"O Lich Noturno Possui:"
+				"&b+50% Físico para Dano de Frio&r"
+				"&b+50% Chance de Congelar&r"
+				"&b+25% Chance de Estilhaçar&r"
+				"&b+50% Resistência Elemental&r"
+				"&a15% Chance de Dropar Runa Sid&r"
+			]
+			id: "07EBFDA1B8808DAF"
+			rewards: [
+				{
+					id: "21701E1566499449"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "591C192B05D51076"
+					title: "Ascendente (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Frio"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "0A39027CB9F70D32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A Torre Congelada"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"O &eManopla do Nether&r pode ser encontrado nas &eArenas de Manopla&r localizadas no bioma &eCavernas Florescentes (Blooming Caverns)&r no &eThe Otherside&r."
+				""
+				"&cA Manopla do Nether spawna no nível mínimo de 90 e na Raridade Mítica.&r"
+				""
+				"A Manopla do Nether Possui:"
+				"&b+50% Físico para Dano de Fogo&r"
+				"&b+75% Chance de Queimar&r"
+				"&b+40% Esquiva&r"
+				"&b+75% Resistência ao Fogo&r"
+				"&a15% Chance de Dropar Runa Sid&r"
+			]
+			id: "005E75571665043C"
+			rewards: [
+				{
+					id: "100B3BFFAADCD105"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "656169856B5F549C"
+					title: "Ascendente (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.255d
+			subtitle: "Fogo"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "67B908871A5282C2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "As Profundezas Ardentes"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Você pode encontrar a &eFlor do Vazio&r nas &eFlorestas Ecoantes&r de &eO Outro Lado (The Otherside)&r. Você pode usar &eLírios do Vazio&r para indicar a direção para essas &eFlores do Vazio&r."
+				""
+				"&cA Flor do Vazio spawna no nível mínimo de 90 e na Raridade Mítica.&r"
+				""
+				"A Flor do Vazio Possui:"
+				"&b+100% Físico para Dano do Caos&r"
+				"&b+33% Chance de Envenenar&r"
+				"&b+1% de Vida Regenerada Por Segundo&r"
+				"&b+75% Resistência ao Caos&r"
+				"&c-25% Resistência ao Fogo&r"
+				"&a15% Chance de Dropar Runa Sid&r"
+			]
+			id: "56B2B51011037E61"
+			rewards: [
+				{
+					id: "15F97D81BF787C79"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "78E77C83F56373C6"
+					title: "Ascendente (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Caos"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "507D5A8FDD10ECE3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "As Terras de Videiras Expansivas"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"O &eObsidilith&r reside na &eArena do Obsidilith&r encontrada em &ePoças Primordiais&r no &eThe End&r."
+				""
+				"&cO Obsidilith spawna no nível mínimo de 90 e na Raridade Mítica.&r"
+				""
+				"O Obsidilith Possui:"
+				"&b+100% Físico para Dano de Raio&r"
+				"&b+50% Chance de Eletrificar&r"
+				"&b+25% Chance de Choque&r"
+				"&b+100% Armadura&r"
+				"&b+50% Resistência a Raios&r"
+				"&a15% Chance de Dropar Runa Sid&r"
+			]
+			id: "6B2C722AC00A07C0"
+			rewards: [
+				{
+					id: "631C758E74857E09"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "4253CD136D9F9A5E"
+					title: "Ascendente (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Raio"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32DF2007C57A60F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A Fortaleza Galvânica"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: ["Alguém já limpou uma estrutura antes de você chegar? Você pode usar &eNéctar de Enxofre&r em qualquer uma das &bestruturas dos Titãs Primitivos&r para reiniciá-las!"]
+			id: "71F71326D81053D9"
+			rewards: [{
+				id: "1E5C69E4282912F2"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "Reiniciando Estruturas de Chefes"
+			tasks: [{
+				id: "6BA69F80620210D3"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			title: "Eles Voltaram!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Enquanto você passa por Mapa após Mapa, você ouve ecos de outro &eLich&r... Um que pode ser encontrado na &eFloresta do Crepúsculo&r. Um novo portal aparece e você atravessa para encontrar uma dimensão completamente nova."
+				""
+				"Para entrar na Floresta do Crepúsculo, você precisa criar uma poça rasa de água 2x2 em uma área gramada, cercada por plantas e/ou folhas em &eO Outro Lado (The Otherside)&r. Você pode precisar trazer grama com você. Então jogue um diamante e observe o portal se formar."
+				""
+				"&l&cMobs da Floresta do Crepúsculo spawnam no mínimo no nível 90!&r&r"
+			]
+			id: "77E6AE329E337151"
+			rewards: [
+				{
+					count: 3
+					id: "0D4BA9A55B97BA9E"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					id: "1488B29B5798BA1F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "51F52DF9B052A4B9"
+				title: "Visite a Floresta do Crepúsculo"
+				type: "dimension"
+			}]
+			title: "O Desconhecido Além"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Aninhados em pequenas clareiras por toda a &eFloresta do Crepúsculo&r, os &eLabirintos de Cerca&r são uma visão curiosa para novos exploradores na dimensão. Muito parecido com as pedras em pé arruinadas, monumentos e outros marcos que pontilham a paisagem, houve especulação infinita sobre por que esses labirintos foram construídos, mas nenhuma resposta foi encontrada até hoje."
+				""
+				"Blocos de cerca formam as paredes de um labirinto típico, com folhagem densa e espinhosa para impedir aventureiros de simplesmente cortar seu caminho através dos corredores sinuosos. Vaga-lumes e Abóboras são comuns, ajudando a iluminar o labirinto em contraste com a luz fraca em outros lugares. Árvores de Dossel foram às vezes vistas em um labirinto, formando uma espécie de poste alto nas paredes de cerca."
+				""
+				"A outra característica principal comum aos labirintos de cerca são as pequenas \"salas\" abertas dentro do labirinto. Descobriu-se que essas sempre contêm um spawner mágico, bem como 1-2 baús e mais Abóboras. Normalmente, eles geram &eLobos Hostis, Aranhas de Enxame ou Aranhas de Cerca&r, mas ao contrário dos spawners encontrados em outros lugares, luz brilhante não impede que funcionem."
+			]
+			id: "54B478D596CE17D6"
+			rewards: [
+				{
+					count: 2
+					id: "2D561080DD23BA36"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3C2A412FD724071E"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:hedge"
+				id: "01A930C680639445"
+				structure: "twilightforest:hedge_maze"
+				title: "Encontre um Labirinto de Cerca"
+				type: "structure"
+			}]
+			title: "Labirintos Naturais"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["Os &eLobos Hostis&r são Lobos estranhos que só podem ser encontrados em um &eLabirinto de Cerca&r. A lenda diz que esses Lobos odeiam humanos porque sempre roubam seus tesouros. Infelizmente, esses Lobos não podem ser domesticados."]
+			icon: "doggytalents:dog_plushie_toy_item"
+			id: "2BE20402219A9B78"
+			rewards: [
+				{
+					count: 3
+					id: "5B3AB3D09BD7747A"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C81F8C6BAB0D7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "ftb_ph:hostile_wolf"
+				id: "4C5ACBBF6C6B901D"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Agressão Desenfreada"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["As &eAranhas de Cerca&r são quase idênticas às Aranhas normais do mundo superior, exceto por sua cor verde distinta. A única diferença entre esta espécie e suas contrapartes do Mundo Superior é que elas são capazes de spawnar em &eLabirintos de Cerca&r bem iluminados. A lenda diz que essas Aranhas são corajosas o suficiente para proteger seu tesouro dos exploradores."]
+			icon: "chipped:stringy_cobweb"
+			id: "039BE2259D553B13"
+			rewards: [
+				{
+					count: 3
+					id: "22076FAC6370473E"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D037E40BE697582"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "ftb_ph:hedge_spider"
+				id: "793117DC4193D9C8"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Preso"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Erguendo-se do terreno plano da &eFloresta do Crepúsculo&r, as &eColinas Ocas (Hollow Hills)&r são montes conspícuos de terra que escondem uma vasta caverna oca repleta de estalactites e estalagmites, algumas das quais são formadas com minérios e minerais preciosos. Exploradores encontraram essas grandes colinas em forma de cúpula em três tamanhos distintos, grandes o suficiente para serem detectadas e marcadas em um &eMapa Mágico&r, com um ícone apropriado indicando seu tamanho. Algumas colinas foram encontradas tendo outras cavernas e ravinas cortando-as, então aqueles aventureiros que cavam sob a terra podem se encontrar dentro de uma dessas colinas em suas explorações."
+				""
+				"Colinas pequenas medem aproximadamente 30 metros de diâmetro e geralmente contêm os minerais básicos como Carvão, Ferro, com Redstone e Pedra Luminosa ocasionalmente sendo encontrados. Exploradores podem esperar encontrar alguns baús de tesouro contendo ferramentas e itens comuns como comida, flechas, escadas e tochas, mas raramente, um Ímã de Minério valioso pode ser encontrado junto com um Diamante e &eFolha de Aço&r. &eAranhas de Enxame, Goblins de Barrete Vermelho e Kobolds&r residem nessas colinas, junto com outras criaturas comuns ao Mundo Superior."
+			]
+			id: "75103126CFA64857"
+			rewards: [
+				{
+					count: 2
+					id: "1C323A27F2B1118B"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "111D5F6783D074B7"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				icon: "twilightforest:hollow_twilight_oak_log"
+				id: "54592C0A736AE877"
+				structure: "twilightforest:small_hollow_hill"
+				title: "Encontre uma Colina Oca Pequena"
+				type: "structure"
+			}]
+			title: "Um Monte Pequeno"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+				"O &ePátio da Naga&r é uma estrutura grande e murada construída de várias formas de pedra e Pedra de Naga. Dentro do Pátio da Naga, há várias cercas de Folhas de Carvalho do Crepúsculo, pilares de Andesito Polido e Pedra de Naga Entalhada, e recursos decorativos adicionais. No meio da estrutura há um Spawner de Chefe contendo a &eNaga&r."
+				""
+				"Matar a Naga desbloqueará a próxima estrutura na Progressão, a &eTorre do Lich&r, removendo a proteção da estrutura."
+				""
+				"&cA Naga spawna na Raridade Mítica.&r"
+				""
+				"A Naga Possui:"
+				"&b+100% Físico para Dano do Caos&r"
+				"&b+40% Chance de Envenenar&r"
+				"&b+30% Penetração do Caos&r"
+				"&b+50% Resistência ao Frio&r"
+				"&b+50% Resistência ao Caos&r"
+			]
+			id: "09AFF8CC33BD244B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Diário de Bordo do Navio dos Saqueadores"
+						}
+					}
+					id: "23AD45244978A5A3"
+					title: "2 Pontos de Habilidade"
+					type: "custom"
+				}
+				{
+					id: "37776D6144DBDA7D"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "529776CB2E015F07"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "1F4F10A8BE8F9410"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "59E013EF3A97101E"
+					item: "mmorpg:potions/full_reset_ascendancy"
+					type: "item"
+				}
+				{
+					id: "3CEAB295D78E83AA"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D51EB762212D5EC"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "5408016296E2B4E9"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Puramente Serpentino"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"A &eTorre do Lich&r consiste em uma única torre central, da qual muitas torres e câmaras menores se projetam desordenadamente dos lados, conectando-se diretamente à próxima torre ou via ponte. Não a confunda com a Torre do Lich que está no The End."
+				""
+				"Numerosos mobs hostis spawnam na Torre do Lich normalmente ou através de spawners. A variedade usual de mobs vanilla spawnam naturalmente. O &eTomo da Morte&r também spawna na Torre do Lich, e é a única estrutura para encontrar este mob."
+				""
+				"Para desbloquear a Torre do Lich, a &eNaga&r deve ser derrotada."
+				""
+				"A Torre do Lich também é a chave para desbloquear três outros biomas e estruturas:"
+				""
+				"- Dissipando o enxame de mosquitos ao redor do &ePântano do Crepúsculo&r, permitindo exploração no &eLabirinto&r."
+				"- Dissipando a escuridão que cobre a &eFloresta Sombria&r, permitindo exploração na &eFortaleza dos Cavaleiros Goblin&r."
+				"- Dissipando a nevasca sobre a &eFloresta Nevada&r, permitindo entrada na &eCaverna do Yeti&r."
+			]
+			id: "05E813C595DBC7AB"
+			rewards: [
+				{
+					count: 5
+					id: "550F848D0AFF9FDF"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC5E8E78128C2BA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "41B2B655D8ABB2AF"
+				structure: "twilightforest:lich_tower"
+				title: "Encontre uma Torre do Lich"
+				type: "structure"
+			}]
+			title: "A Torre do Poder"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"Os &eTomos da Morte&r são livros perigosos que flutuam nas escadarias e bibliotecas da Torre do Lich. Eles disparam um projétil que desacelera a criatura que acertam por um breve tempo. Tombos da Morte ocasionalmente perdem páginas quando atingidos."
+				""
+				"Tombos da Morte também podem dropar um &eFoco de Mapa Mágico&r ao morrer."
+				""
+				"O Tombo da Morte Possui:"
+				"&b+50% Físico para Dano de Raio&r"
+				"&b+50% Físico para Dano do Caos&r"
+			]
+			icon: "mca:book_death"
+			id: "7CEF2BA760AB0B2E"
+			rewards: [
+				{
+					count: 2
+					id: "14CD63892C5E3F41"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E5F010430704713"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB516DD49306C90"
+					item: "mmorpg:currency/enchant_reroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "792CBFC517AE25A6"
+					item: "mmorpg:currency/unique_reroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30AE5F37C62C7EB7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "ftb_ph:death_tome"
+				id: "154CA20889C9EDB5"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Biblioteca Encantada"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"O &eLich do Crepúsculo&r, também referido apenas como o &eLich&r, reside no topo de uma &eTorre do Lich&r. Ele aparece como um esqueleto humanóide alto usando uma capa roxa e uma grande coroa dourada. Ao redor de si há uma parede de escudos para se proteger de qualquer dano, mas talvez possam ser quebrados."
+				""
+				"Aventureiros relatam que os projéteis podem ser desviados com um golpe bem cronometrado. Toda vez que o jogador reflete os projéteis do Lich de volta para ele, ele removerá um de seus escudos."
+				""
+				"&cO Lich spawna na Raridade Mítica.&r"
+				""
+				"O Lich Possui:"
+				"&b+100% Físico para Dano de Raio&r"
+				"&b+50% Chance de Eletrificar&r"
+				"&b+25% Chance de Choque&r"
+				"&b+25% Penetração de Raio&r"
+				"&b+75% Resistência Elemental&r"
+				"&b+50% Resistência ao Caos&r"
+				""
+				"&6Esta Missão Desbloqueia Novas Lojas na Loja da Campanha."
+			]
+			id: "1F3C2718AE550D5C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Diário de Bordo do Navio dos Saqueadores"
+						}
+					}
+					id: "78E598DDB8CEEE03"
+					title: "2 Pontos de Habilidade"
+					type: "custom"
+				}
+				{
+					id: "15E955610563E40C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "41295C50FCBC7A5D"
+					item: "mmorpg:gems/topaz/6"
+					type: "item"
+				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:toy_story_alien"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "5156617EB99C3B38"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "O Mestre Cérebro"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"As &eColinas Ocas&r são uma excelente fonte de minérios para serem minerados e tesouros para serem saqueados, com os saques mais valiosos contidos nas colinas maiores. Os tesouros a serem encontrados tendem a ser guardados pelas criaturas perigosas que abundam na escuridão, que podem facilmente significar a ruína de um explorador desatento. Infelizmente, também parece que quanto maior a colina, mais criaturas vivem lá. Exploradores devem lembrar as regras básicas de exploração de cavernas, e nunca cavar diretamente para baixo em uma Colina Oca; em vez disso, aproxime-se pela lateral e traga muitas fontes de luz para iluminar o interior, pois vários spawners estão em cada esquina."
+				""
+				"Colinas médias têm cerca de 60 metros de diâmetro e 25+ metros de altura no centro. O interior se torna mais espaçoso, mas isso também atraiu criaturas mais numerosas e mortais. Ouro e Lápis-lazúli podem ser encontrados aqui, assim como Diamante e Esmeralda sendo vistos, embora raramente. À medida que o valor dos minérios aumenta, os tesouros também aumentam - até 6 baús geralmente podem ser encontrados em uma colina média contendo &eLingotes de Madeira de Ferro e Pó de Transformação&r, junto com artefatos únicos como uma Rainha Verme da Lua e o Leque de Pena de Pavão. &eBesouros de Fogo e Sapadores de Barrete Vermelho&r vivem em colinas médias, além daqueles vistos em colinas pequenas."
+			]
+			id: "2820ABD72802B6F2"
+			rewards: [
+				{
+					count: 4
+					id: "4B00DACD9470CF87"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A53AC07D15CF95F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				icon: "twilightforest:hollow_time_log"
+				id: "583B2BF97EA1E832"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "Um Monte Médio"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: ["O &eLabirinto&r é um marco importante ligado à Progressão. Ele aparece como uma pequena colina sem graça no &ePântano do Crepúsculo&r, mas se abre para uma entrada de uma estrutura subterrânea de passagens de labirinto expansivas. Nos níveis profundos do Labirinto, uma sala cercada contém um Spawner de Chefe com o &eMinoshroom&r."]
+			id: "1C58F38B9890D6BA"
+			rewards: [
+				{
+					count: 2
+					id: "68678804DB1B0A4A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6B43C3B5A633A10F"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:maze_map"
+				id: "3E00882F2A14F4C6"
+				structure: "twilightforest:labyrinth"
+				title: "Encontre um Labirinto"
+				type: "structure"
+			}]
+			title: "Um Labirinto Mágico"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"O &eMinoshroom&r é um mini-chefe encontrado espreitando em sua prisão no fundo de um &eLabirinto&r. O &eMinoshroom&r é um híbrido bizarro de um Mooshroom e um Minotauro."
+				""
+				"O Minoshroom Possui:"
+				"&b+10 Penetração de Armadura (Escala)&r"
+				"&b+50% Precisão&r"
+				"&b+30% Resistência Física&r"
+				"&b+20% Regeneração de Vida&r"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "78EB450B57F9B7E7"
+			rewards: [
+				{
+					count: 3
+					id: "19BA04335CBBAEF0"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "4D369FC4FA80DC2F"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "02C4B1A5FC2F4BF9"
+					item: "mmorpg:currency/level_up_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "5BBA7A672D914F6C"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "Muuuuuuuuu"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"Os &eSlimes de Labirinto&r são variantes do Slime do Mundo Superior da &eFloresta do Crepúsculo&r. Esses Slimes têm uma cor cinza e spawnam em &eLabirintos&r."
+				""
+				"O Slime de Labirinto Possui:"
+				"&b+25% Armadura&r"
+				"&b+25% Resistência Física&r"
+				"&b+50% Resistência a Raios&r"
+			]
+			id: "26D545606AA14974"
+			rewards: [
+				{
+					id: "3C9B5B2C5838A9E2"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7B27AF6930907B"
+					item: "mmorpg:currency/orb_of_quality"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:mazestone"
+				id: "5F809DB4B920DBD2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Concreto... Slime?"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: ["Assemelhando-se a uma grande &eColina Oca&r, o &eCovil da Hidra&r se ergue das terras pantanosas planas fornecendo um covil natural para a Hidra de múltiplas cabeças no coração do &ePântano de Fogo&r. A &eHidra&r parece ter escavado a própria colina, fornecendo-lhe abrigo e forçando qualquer um que a desafiasse a se aproximar de frente. A área que enfrenta a Hidra também está desprovida de vegetação ou cobertura, de modo que não há lugar para se esconder."]
+			id: "1A2A1F3575A8159B"
+			rewards: [
+				{
+					count: 2
+					id: "4E1C822C955889FC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1829DFB6A35F0F6B"
+					item: "mmorpg:gems/topaz/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:hydra_chop"
+				id: "10F427A4198C5961"
+				structure: "twilightforest:hydra_lair"
+				title: "Encontre um Covil da Hidra"
+				type: "structure"
+			}]
+			title: "O Covil"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2A1F3575A8159B"]
+			description: [
+				"A &eHidra&r pode ser encontrada em um &eCovil da Hidra&r único e rachado em um &ePântano de Fogo&r. A Hidra aparece como uma criatura massiva, com duas pernas atarracadas sustentando um corpo largo e escamoso. Múltiplos pescoços serpentinos terminam em cabeças que têm uma semelhança passageira com a do Dragão do Fim. Toda a criatura está coberta de escamas azul-esverdeadas e azul-escuras."
+				""
+				"&cA Hidra spawna na Raridade Mítica.&r"
+				""
+				"A Hidra Possui:"
+				"&b+100% Físico para Dano de Fogo&r"
+				"&b+60% Chance de Queimar&r"
+				"&b+40% Penetração de Fogo&r"
+				"&b+25% Redução de Dano&r"
+				"&b+35% Resistência a Raios&r"
+			]
+			id: "18C4B8D73A50CFAC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Diário de Bordo do Navio dos Saqueadores"
+						}
+					}
+					id: "43D1F2E8681A6250"
+					title: "2 Pontos de Habilidade"
+					type: "custom"
+				}
+				{
+					id: "06CDDFAA60B2313C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "442655A6C145A711"
+					item: "mmorpg:gems/emerald/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "1A83F081741ED7A4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Besta de Múltiplas Cabeças"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+				"O &eEstrogonofe de Meef&r pode ser bastante farto e potente, permitindo que qualquer aventureiro tenha energia para explorar até os biomas mais quentes depois de comer uma única tigela."
+				""
+				"Ao consumir &eEstrogonofe de Meef&r, o jogador recebe acesso tanto ao &ePântano de Fogo&r quanto à &eHidra&r."
+			]
+			id: "7187E491F0DB8671"
+			rewards: [
+				{
+					count: 2
+					id: "5C46D448EFC87623"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E328E95911DAEA1"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					id: "58D2C2F14A786F55"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "7275AB1F3B39A5DF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				id: "3D81F5F7AA614C5D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "Uma Refeição Farta"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"A &eFloresta Sombria&r é um bioma densamente vegetado com um dossel espesso que bloqueia quase toda a luz do chão da floresta. Árvores de Madeira Sombria crescem mais comumente neste bioma, com alguma vegetação menor como grama alta e flores cobrindo a grama. Ocasionalmente, Cogumelos Brilhantes crescem na área, fornecendo uma fonte fraca de luz."
+				""
+				"Apesar da escuridão, monstros como Zumbis e Esqueletos não spawnarão na superfície. No entanto, outros monstros como &eLobos da Névoa&r e &eAranhas Rei&r spawnarão, tornando a travessia na Floresta Sombria mais perigosa."
+			]
+			id: "7E14A7756FB4B78B"
+			rewards: [
+				{
+					id: "7B40532F3F039222"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "666D99C820AFA04B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "53505C138F5F5996"
+					item: "mmorpg:gems/tourmaline/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:canopy_sapling"
+				id: "3B00F80F4C4025E2"
+				title: "Visite uma Floresta Sombria"
+				type: "biome"
+			}]
+			title: "Cegado pela Escuridão"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"Os &eLobos da Névoa&r são monstros misteriosos que spawnam na &eFloresta Sombria&r. Esses monstros esperam por sua vítima na escuridão da floresta. Eles ficam transparentes no escuro e só assumem forma sólida em áreas de luz brilhante. Se atacarem um jogador no escuro, seus ataques podem cegar o jogador, mas essa aflição não parece acontecer perto de uma fonte de luz."
+				""
+				"O Lobo da Névoa Possui:"
+				"&b+50% Físico para Dano do Caos&r"
+				"&b+30% Taxa de Esquiva&r"
+				"&b+30% Taxa de Esquiva de Feitiço&r"
+				"&b+25% Resistência Elemental&r"
+			]
+			icon: "outer_end:ender_roots"
+			id: "700E3C92E9C27B04"
+			rewards: [
+				{
+					count: 2
+					id: "63E33F53FF3193C1"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58F31A094952CF4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "ftb_ph:mist_wolf"
+				id: "493B46FB942D8A16"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Escondido na Névoa"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"As &eAranhas Rei&r só podem ser encontradas na &eFloresta Sombria&r e o primeiro sinal delas geralmente são seus olhos vermelhos brilhando na escuridão. Elas têm o dobro do tamanho, velocidade e resistência das aranhas normais, e são encontradas com um &eDruida Esqueleto&r montado em suas costas, tornando-as um inimigo formidável de lidar."
+				""
+				"A Aranha Rei Possui:"
+				"&b+100% Físico para Dano do Caos&r"
+				"&b+30% Penetração do Caos&r"
+			]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "67CCD11ABBB75DF3"
+			rewards: [
+				{
+					id: "2404378E98FDF0DD"
+					item: "mmorpg:gems/emerald/5"
+					type: "item"
+				}
+				{
+					id: "499095977A582D7B"
+					item: "mmorpg:gems/garnet/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "547FDEA4C9F24547"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: "ftb_ph:king_spider"
+				id: "315594F7D6D8B953"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Aranhas que Induzem Medo"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: ["Antigas e abandonadas, as &eFortalezas dos Cavaleiros Goblin&r repousam entre o dossel anormalmente denso da &eFloresta Sombria&r. Elas podem ser difíceis de detectar na escuridão com pouco restante acima do solo além de paredes quebradas e tijolos rachados. Abaixo da superfície, no entanto, há um vasto complexo de salas, corredores e tumbas."]
+			id: "11768894E8B672B5"
+			rewards: [
+				{
+					count: 2
+					id: "5F891BF39E8515BC"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A8290CD9BB7C782"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4972BFCA3275C5DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:stronghold_shield"
+				id: "54FDAF28D194B2C1"
+				structure: "twilightforest:knight_stronghold"
+				title: "Encontre uma Fortaleza dos Cavaleiros Goblin"
+				type: "structure"
+			}]
+			title: "Usurpadores Goblin"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11768894E8B672B5"]
+			description: [
+				"Os &eFantomas Cavaleiros&r residem em uma sala de tijolos na &eFortaleza dos Cavaleiros Goblin&r. Eles aparecem como peças fantasmagóricas de Armadura Fantasma e parecem ter uma aparência assustadora e fantasmagórica ao atacar."
+				""
+				"Derrotar os &e6 Fantomas Cavaleiros&r progredirá a Fase da Floresta Sombria, removendo assim as proteções sobre o &eCentro da Floresta Sombria&r, agora permitindo acesso ao &eUr-Ghast&r e sua &eTorre Sombria&r."
+				""
+				"O Fantasma Cavaleiro Possui:"
+				"&b+100% Físico para Dano de Raio&r"
+				"&b+25% Acerto Crítico&r"
+				"&b+50% Taxa de Esquiva&r"
+				"&b+50% Taxa de Esquiva de Feitiço&r"
+			]
+			id: "42922690F74AC7FE"
+			rewards: [
+				{
+					count: 3
+					id: "5D5B35924A7177B3"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E60295E386C4F31"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "501346F0CBF0B449"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "70290AE8EF83F6A1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Cavaleiros Amaldiçoados"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42922690F74AC7FE"]
+			description: [
+				"Erguendo-se ameaçadoramente sobre a &eFloresta Sombria&r estão as impressionantes &eTorres Sombrias&r. Tão altas que parecem perfurar o próprio céu, essas construções imensas contêm todos os tipos de salas únicas, obstáculos, tesouros e monstros para explorar e lutar na jornada épica até o topo. Elas geralmente são encontradas no coração de uma Floresta Sombria, onde a folhagem espessa e sufocante se torna uma tonalidade estranha, semelhante ao outono, talvez devido à influência sinistra da Torre."
+				""
+				"&eCriaturas de Carminite geralmente causam Dano de Fogo.&r"
+			]
+			id: "0E85C58F1DA0564C"
+			rewards: [
+				{
+					count: 2
+					id: "411163FE27556CEA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0DA6290C80A32C41"
+					item: "mmorpg:gems/ruby/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "03F883F2D01DF89A"
+				structure: "twilightforest:dark_tower"
+				title: "Encontre uma Torre Sombria"
+				type: "structure"
+			}]
+			title: "Torres Sombrias"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E85C58F1DA0564C"]
+			description: [
+				"O &eUr-Ghast&r pode ser encontrado voando ao redor no topo da gigantesca &eTorre Sombria&r. Ele aparece como uma criatura grande e sobrenatural com muitas tentáculos grandes e ondulantes. Está coberto do que aventureiros temem ser sangue, ou poderia ser Carminite. Esta criatura se assemelha ao Guarda Ghast de Carminite, devido à sua capacidade de perseguir jogadores, bem como os Ghasts exclusivos do Nether, mas é muito maior e muito mais perigoso."
+				""
+				"&cO Ur-Ghast spawna na Raridade Mítica.&r"
+				""
+				"O Ur-Ghast Possui:"
+				"&b+100% Físico para Dano de Fogo&r"
+				"&b+25% Chance de Queimar&r"
+				"&b+100% Dano de Queimadura&r"
+				"&b+5% Resistência Máxima ao Fogo&r"
+				"&b+100% Resistência ao Fogo&r"
+			]
+			id: "5BB55F41502BE69C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Diário de Bordo do Navio dos Saqueadores"
+						}
+					}
+					id: "26A037B5BB43D730"
+					title: "2 Pontos de Habilidade"
+					type: "custom"
+				}
+				{
+					id: "70D77D8F4DC32B5F"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "4AC6E089CE9FA0A2"
+					item: "mmorpg:gems/ruby/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "1484F0626CF00EDA"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Sangue, ou Carminite?"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"A &eFloresta Nevada&r é um bioma anormalmente frio que contrasta fortemente com grande parte do resto da dimensão da Floresta do Crepúsculo. Exploradores notaram muitas semelhanças com o bioma Taiga Nevada do Mundo Superior, com neve cobrindo o chão entre grandes grupos de árvores de abeto crescendo no lugar das Árvores de Dossel usuais, com algumas crescendo tão grandes. Por que um clima tão gelado deveria existir em uma dimensão predominantemente amena e úmida é um mistério, embora alguns suspeitem que o grande &eGlaciar&r que se aninha entre as árvores de abeto possa ter algo a ver com isso."
+				""
+				"Cuidado deve ser tomado ao caminhar por essas áreas, pois &eLobos do Inverno&r vagam pela terra junto com perigosos &eYetis&r. Essas criaturas devem ser abordadas com cautela, especialmente ao se aventurar nas &eCavernas do Yeti&r, pois muitas dezenas podem ser encontradas nessas cavernas geladas. O &eYeti Alfa&r que reivindica domínio sobre seus parentes não receberá bem a intrusão dos curiosos ou dos tolos."
+			]
+			id: "15B1E394B4FBB981"
+			rewards: [
+				{
+					id: "0B1583B14CE6405B"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CAE6DB8E7EDB259"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "00866B8B5706A607"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "blue_skies:snowbloom"
+				id: "7ED21F382B9E41B3"
+				title: "Visite uma Floresta Nevada"
+				type: "biome"
+			}]
+			title: "Soterrado pela Neve"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"Os &eLobos do Inverno&r são caninos grandes e azulados-brancos que vivem na &eFloresta Nevada&r. Esses monstros se assemelham às suas contrapartes da &eFloresta Sombria&r, mas com um casaco branco. Eles perseguem e atacam jogadores em seu território, atacando tanto com sua mordida quanto com um ataque de respiração congelante que aplica lentidão."
+				""
+				"O Lobo do Inverno Possui:"
+				"&b+100% Físico para Dano de Frio&r"
+				"&b+30% Penetração de Frio&r"
+				"&b+30% Resistência ao Frio&r"
+			]
+			icon: "born_in_chaos_v1:fangofthe_hound_leader"
+			id: "38BFA9B6AC5CBD12"
+			rewards: [
+				{
+					id: "477E6F483D6AABCD"
+					item: "mmorpg:currency/sharpening_stone_3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C66DC9E98CDE941"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "ftb_ph:winter_wolf"
+				id: "4BF835E79D59F65E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Um Uivo Gelante"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"Os &eYetis&r são criaturas grandes, brancas e quadradas que vivem na &eFloresta Nevada&r ou dentro da &eCaverna do Yeti&r. Eles são semi-passivos por natureza, apenas se interessando por jogadores que se movem dentro de cerca de 4 blocos deles. Eles não têm ataques diretamente danosos. Em vez disso, eles pegarão seu alvo e o jogarão em uma direção aleatória. Aventureiros não serão diretamente prejudicados por um Yeti, mas o dano de queda doerá. Se atacados, eles se tornarão agressivos, perseguindo seu alvo."
+				""
+				"O Yeti Possui:"
+				"&b+0.5% de Vida Regenerada Por Segundo&r"
+				"&b+30% Resistência ao Frio&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:yeti_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "10B572A9358F338B"
+			rewards: [
+				{
+					count: 5
+					id: "021419E747103F83"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7661B1B922262EAF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20201B9A398A123F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Floresta do Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: "ftb_ph:yetitwilight"
+				id: "0C5B0388632D3E64"
+				type: "kill"
+				value: 10L
+			}]
+			title: "O Yeti"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B93763BFB5F5E0D"]
+			description: [
+				"O temível &eYeti Alfa&r é muito maior que o resto dos Yetis em sua matilha. Ele tem seis chifres grandes e azuis e é constantemente agressivo com jogadores."
+				""
+				"Derrotar o &eYeti Alfa&r removerá as proteções sobre o &eGlaciar&r, agora permitindo acesso à &eRainha da Neve&r e seu &ePalácio da Aurora&r."
+				""
+				"O Yeti Alfa Possui:"
+				"&b+50% Físico para Dano de Frio&r"
+				"&b+8 Penetração de Armadura (Escala)&r"
+				"&b+30% Penetração de Frio&r"
+				"&b+25% Resistência Física&r"
+				"&b+50% Resistência ao Frio&r"
+			]
+			id: "44B4EC276B4CD776"
+			rewards: [
+				{
+					count: 3
+					id: "2BA208A9FDAC9C96"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79ACA445473BD88D"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					id: "26B9B73CD18DC085"
+					item: "mmorpg:gems/amethyst/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "04298BD3152A19E7"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "O Yeti Alfa"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44B4EC276B4CD776"]
+			description: [
+				"Erguendo-se sobre os &eGlaciares&r desolados, o &ePalácio da Aurora&r é uma visão impressionante e bela para aventureiros na Floresta do Crepúsculo, com suas paredes constantemente mudando em uma variedade de cores alcançando o céu. A beleza é apenas superficial, infelizmente, pois há perigos dentro que não hesitarão em defender sua casa mágica."
+				""
+				"Aventureiros que derrotarem o &eYeti Alfa&r descobrirão que apenas &etocar sua pelagem macia&r transferirá uma porção do poder mágico da pelagem para si mesmos, dissipando os ventos e deixando o Palácio aberto para exploração."
+			]
+			icon: "twilightforest:blue_castle_door"
+			id: "2FDCA05F4CD502C8"
+			rewards: [
+				{
+					count: 2
+					id: "591FB17C2BAA0199"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "2F9DB93942234A2C"
+					item: "mmorpg:gems/sapphire/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_pillar"
+					id: "3E8D88BC87345DAC"
+					structure: "twilightforest:aurora_palace"
+					title: "Encontre um Palácio da Aurora"
+					type: "structure"
+				}
+				{
+					id: "3F7D90DB38D24943"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "Um Palácio de Beleza"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FDCA05F4CD502C8"]
+			description: [
+				"A &eRainha da Neve&r é encontrada em uma sala coberta de gelo perto do topo do &ePalácio da Aurora&r. Ela é talvez a criatura mais humanóide encontrada na Floresta do Crepúsculo, assemelhando-se a uma mulher, mas com grandes olhos violetas e pele azul pálida. Ela é imediatamente hostil a qualquer intruso em sua proximidade, lançando-se rapidamente em um dos três padrões de ataque principais."
+				""
+				"A Rainha da Neve voa em um trenó em forma de disco feito de blocos de gelo mágicos. O trenó serve como uma defesa poderosa, movendo a Rainha para cima e fora do alcance de ataques de curto alcance, enquanto &ebloqueia quaisquer ataques à distância feitos de baixo&r. Para atacar com sucesso a Rainha da Neve, você deve antecipar seus movimentos, &eatacando apenas quando ela se move perto o suficiente para que você possa contornar o trenó de gelo&r."
+				""
+				"&cA Rainha da Neve spawna na Raridade Mítica.&r"
+				""
+				"A Rainha da Neve Possui:"
+				"&b+100% Físico para Dano de Frio&r"
+				"&b+80% Chance de Congelar&r"
+				"&b+25% Chance de Estilhaçar&r"
+				"&b+30% Penetração de Frio&r"
+				"&b+30% Redução de Dano&r"
+			]
+			id: "1E2D94E70E2A1134"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Diário de Bordo do Navio dos Saqueadores"
+						}
+					}
+					id: "7EF3ECDA9B97A8F7"
+					title: "2 Pontos de Habilidade"
+					type: "custom"
+				}
+				{
+					id: "1DC1DDFC5481AC98"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "13F0A36E7B35C9D3"
+					item: "mmorpg:gems/sapphire/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				consume_items: true
+				id: "30915EF9976C000F"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "A Rainha do Gelo"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"Ao matar a &eNaga&r, um &eMonumento de Ressurgimento&r aparecerá. Você pode ativar o bloco para fazer o chefe ressurgir colocando &eBlocos de Madeira de Ferro&r em um círculo ao redor do monumento assim:"
+				""
+				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
+				""
+				"Então, no próprio monumento, coloque uma &eCabeça de Wither&r voltada para o &eNorte&r. &cDEVE estar voltada para o Norte!&r"
+			]
+			id: "249CFC4219E590E5"
+			rewards: [{
+				count: 5
+				id: "1F089CDD411E7807"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ressurgimento"
+			tasks: [{
+				advancement: "dimasic_server:nagaresp"
+				criterion: ""
+				id: "4443B8B332438AA1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"Ao matar o &eLich&r, um &eMonumento de Ressurgimento&r aparecerá. Você pode ativar o bloco para fazer o chefe ressurgir colocando &eBlocos de Ouro&r em um círculo ao redor do monumento assim:"
+				""
+				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
+				""
+				"Então, no próprio monumento, coloque uma &eCaveira de Esqueleto Wither&r voltada para o &eNorte&r. &cDEVE estar voltada para o Norte!&r"
+			]
+			id: "478246DF0A50447C"
+			rewards: [{
+				count: 5
+				id: "53945B5AF1249FE5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ressurgimento"
+			tasks: [{
+				advancement: "dimasic_server:lichresp"
+				criterion: ""
+				id: "46647FC4FDDBF7CE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB55F41502BE69C"]
+			description: [
+				"Ao matar o &eUr-Ghast&r, um &eMonumento de Ressurgimento&r aparecerá. Você pode ativar o bloco para fazer o chefe ressurgir colocando &eObsidiana Chorosa&r em um círculo ao redor do monumento assim:"
+				""
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
+				""
+				"Então, no próprio monumento, coloque uma &eCaveira de Esqueleto Wither&r voltada para o &eNorte&r. &cDEVE estar voltada para o Norte!&r"
+			]
+			id: "52FABBC48E005524"
+			rewards: [{
+				count: 5
+				id: "1FED6032BF28DDCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ressurgimento"
+			tasks: [{
+				advancement: "dimasic_server:urghastresp"
+				criterion: ""
+				id: "16328367B255603E"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E2D94E70E2A1134"]
+			description: [
+				"Ao matar a &eRainha da Neve&r, um &eMonumento de Ressurgimento&r aparecerá. Você pode ativar o bloco para fazer o chefe ressurgir colocando &eBlocos de Lápis-lazúli&r em um círculo ao redor do monumento assim:"
+				""
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
+				""
+				"Então, no próprio monumento, coloque uma &eCaveira de Esqueleto Wither&r voltada para o &eNorte&r. &cDEVE estar voltada para o Norte!&r"
+			]
+			id: "15CD2A688D39C87D"
+			rewards: [{
+				count: 5
+				id: "3467E2DEDB8FA565"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ressurgimento"
+			tasks: [{
+				advancement: "dimasic_server:snawqueenresp"
+				criterion: ""
+				id: "4F68D5C6E346A550"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18C4B8D73A50CFAC"]
+			description: [
+				"Ao matar a &eHidra&r, um &eMonumento de Ressurgimento&r aparecerá. Você pode ativar o bloco para fazer o chefe ressurgir colocando &eDetritos Antigos&r em um círculo ao redor do monumento assim:"
+				""
+				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
+				""
+				"Então, no próprio monumento, coloque uma &eCaveira de Esqueleto Wither&r voltada para o &eNorte&r. &cDEVE estar voltada para o Norte!&r"
+			]
+			id: "1DD47026109BE225"
+			rewards: [{
+				count: 5
+				id: "6A599A8C876376B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ressurgimento"
+			tasks: [{
+				advancement: "dimasic_server:hydraresp"
+				criterion: ""
+				id: "5757A2AFA61E5A7F"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5BB55F41502BE69C"
+				"1E2D94E70E2A1134"
+				"18C4B8D73A50CFAC"
+				"1F3C2718AE550D5C"
+				"09AFF8CC33BD244B"
+			]
+			description: ["Derrote todos os chefes da &eFloresta do Crepúsculo&r no Epílogo para completar esta conquista. Então mostre com seu novo chapéu!"]
+			hide_dependency_lines: true
+			icon: "simplehats:pog"
+			id: "481C3C4D8D5AF5B8"
+			rewards: [
+				{
+					id: "6350309B873FAF80"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "675B5B35C383CF3D"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:passive"
+					id: "3C311586BF920909"
+					title: "4 Pontos Passivos"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Conquista"
+			tasks: [{
+				id: "4405B159442E256A"
+				title: "Clique Uma Vez para Ler"
+				type: "checkmark"
+			}]
+			title: "Derrote Todos os Chefes da Floresta do Crepúsculo!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: ["Aninhada entre as colinas e árvores de abeto da &eFloresta Nevada&r, a &eCaverna do Yeti&r aparece como uma colina em forma quadrada. Quatro entradas permitem acesso ao interior coberto de gelo, onde gelo compactado pendura das estalactites e cobre o chão. Muitos &eYetis&r ferozes fazem sua casa nessas cavernas geladas, governados por um &eYeti Alfa&r."]
+			id: "4B93763BFB5F5E0D"
+			rewards: [
+				{
+					count: 3
+					id: "1F78FFBE5A9A85B2"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56F92CFDECE8EB68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "blue_skies:snowcap_mushroom_block"
+				id: "0A566E2109FCE4C5"
+				structure: "twilightforest:yeti_cave"
+				title: "Encontre uma Caverna do Yeti"
+				type: "structure"
+			}]
+			title: "Uma Morada Fria e Humilde"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&oEncontrar certas estruturas e matar chefes? Parece fácil o suficiente... Você puxa sua Bússola do Explorador e- espera o quê? Não funciona?&r"
+				""
+				"Na Floresta do Crepúsculo, você precisará confiar em suas habilidades de navegação. Você precisará confiar no &eFoco de Mapa&r da Floresta do Crepúsculo!"
+			]
+			icon: "twilightforest:magic_map"
+			id: "5081032C6E395EA9"
+			rewards: [{
+				id: "0AE3865B01EA1ACD"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			subtitle: "Epílogo"
+			tasks: [{
+				id: "2BF7F6856AC56540"
+				title: "Clique Uma Vez para Ler"
+				type: "checkmark"
+			}]
+			title: "Viagens Nômades"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Nv. 90"]
+	title: "Epílogo"
+}

@@ -1,0 +1,1209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "culinary_delights"
+	group: "5F2CCE8075FCC994"
+	icon: "minecraft:apple"
+	id: "7FD5D59582D9B2D6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eFarmer's Delight&r reformula o processo de cozinhar. Agora você pode criar um &eFogão (Stove)&r para aquecer &ePanela (Pot) ou Frigideira (Skillet)&r que é colocada em cima dele. "
+				""
+				"&ePanelas&r são capazes de fazer ensopados e alimentos combinados que são mantidos com tigelas. Você também pode fazer banquetes, que são alimentos que são colocados, como bolos, que têm várias porções."
+				""
+				"&eFrigideiras&r podem cozinhar alimentos sobre fogueiras ou fogões."
+				""
+				"&eTábuas de Corte (Cutting Board)&r são úteis dentro e fora da cozinha. Você não só pode &efiletar peixes e carnes&r em tiras, mas também cortar vários itens, como lã em barbante ou armadura de couro em couro. As tábuas de corte exigem principalmente &efacas&r, mas algumas receitas usarão picaretas, machados, tesouras, etc."
+			]
+			id: "1ABBB0CCEECA066F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "478E77EB5C09F738"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Fabrique 1 de cada item"
+			tasks: [
+				{
+					id: "233009494ADD7158"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "058BB0080775CF38"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "78F67A1BA62AACA8"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33A190F4C4A3D596"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "1CBEDBFE74787B62"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Farmer's Delight"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["&eCrabber's Delight&r permite que você pegue caranguejos e outros tesouros usando &eArmadilhas de Caranguejo (Crab Trap)&r. Elas precisam de isca (geralmente peixe) para pegar qualquer coisa. Elas também podem ser pescados com uma vara de pesca."]
+			id: "3ADE97CD486AE65C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4C038CBF56C7F4F0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Fabrique 3x Crab Trap"
+			tasks: [{
+				count: 3L
+				id: "0E73B487ED20E490"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "Crabber's Delight"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Enquanto segura uma &eenxada,&r clique com o botão direito nas plantações para colher sem quebrá-las. &eEnxadas&r de nível superior colhem em raios maiores."]
+			id: "7F58716061D74AC2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1B09BD8AA6CC38FE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Clique com o botão direito nas plantações com a enxada"
+			tasks: [{
+				id: "34C3EF34008C3C11"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Right Click Harvest"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&eFarming for Blockheads&r facilita a agricultura, fornecendo &etrês&r fertilizantes diferentes para aplicar em terras agrícolas. Apenas um fertilizante pode ser usado em uma terra agrícola."
+				""
+				"O bloco &eMercado (Market)&r permite que você compre sementes e mudas diretamente."
+				""
+				"O &eComedouro (Feeding Trough)&r permite que os animais se reproduzam automaticamente se forem fornecidos com comida."
+				""
+				"O &eNinho de Galinha (Chicken Nest)&r coleta automaticamente quaisquer ovos postos perto dele."
+			]
+			id: "3B4E06CA3D404A7C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "055D02FE93ECFD66"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 1 de cada"
+			tasks: [
+				{
+					id: "154DB277F57B7837"
+					item: "farmingforblockheads:market"
+					type: "item"
+				}
+				{
+					id: "353E5E9855E9FEAF"
+					item: "farmingforblockheads:green_fertilizer"
+					type: "item"
+				}
+				{
+					id: "0AEC10944A2A2D73"
+					item: "farmingforblockheads:red_fertilizer"
+					type: "item"
+				}
+				{
+					id: "30E8A6B002D19489"
+					item: "farmingforblockheads:yellow_fertilizer"
+					type: "item"
+				}
+				{
+					id: "5DF01D9D8C10FB99"
+					item: "farmingforblockheads:chicken_nest"
+					type: "item"
+				}
+				{
+					id: "777A5AEC93007F77"
+					item: "farmingforblockheads:feeding_trough"
+					type: "item"
+				}
+			]
+			title: "Farming for Blockheads"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["&eNether's Delight&r adiciona comida e utilidade ao Nether, como &eLombos de Hoglin (Hoglin Loin)&r e &eCarnes de Strider (Strider Slice)&r."]
+			id: "462BAB455A040B51"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "698AA19166B62A0F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 3 de cada"
+			tasks: [
+				{
+					count: 3L
+					id: "5D6BCB8EBA6FCB3A"
+					item: "nethersdelight:hoglin_loin"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "26E1454E1E71B10C"
+					item: "nethersdelight:strider_slice"
+					type: "item"
+				}
+			]
+			title: "Nether's Delight"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["&eCorn Delight&r adiciona produtos de milho, como tortilhas, nachos, pipoca e muito mais."]
+			id: "4EB5BD23AA91660A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4E970741587442F4"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 8x Corn Kernel"
+			tasks: [{
+				count: 8L
+				id: "384E567ED41274E2"
+				item: "corn_delight:corn_seeds"
+				type: "item"
+			}]
+			title: "Corn Delight"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eCuisine Delight&r permite que você cozinhe &equalquer comida compatível&r para criar comidas novas e únicas. "
+				""
+				"Perto de uma fonte de fogo, segure a &eFrigideira de Cozinha (Cuisine Skillet)&r na sua &emão secundária.&r Você também pode colocá-la na fonte de fogo. &eClique com o botão direito na comida&r na mão para adicioná-la à &efrigideira.&r Dois medidores aparecerão no lado direito da sua tela para cada ingrediente adicionado. O &eprimeiro medidor&r é o quão cozida está a comida, você quer que termine no &eamarelo.&r O &esegundo medidor&r é o quão &equeimado cada lado&r está, você quer que o ponteiro dentro &epermaneça dentro do verde&r. Então, use a &espátula (spatula)&r para &evirar&r todos os ingredientes dentro para evitar que qualquer lado &equeime.&r Use uma &etigela&r rapidamente para retirar a comida."
+				""
+				"Segure &eSHIFT&r em comidas no inventário para ver os tempos de cozimento."
+				""
+				"Se estiver &equeimado,&r você deixou o segundo medidor entrar no vermelho em um dos lados."
+				""
+				"Se &enão estiver cozido o suficiente,&r você não deixou o primeiro medidor entrar no amarelo."
+			]
+			id: "75800C2A9E6F13F0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2B211CE9CBE0F685"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 1 de cada"
+			tasks: [
+				{
+					id: "3F2FB4CEA9BB6DCC"
+					item: {
+						Count: 1
+						id: "cuisinedelight:cuisine_skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1E7CB5AE68B369"
+					item: "cuisinedelight:spatula"
+					type: "item"
+				}
+				{
+					id: "698D9EED13D9E773"
+					item: "cuisinedelight:plate"
+					type: "item"
+				}
+			]
+			title: "Cuisine Delight"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: ["&eEnder's Delight &radiciona comida e drops de ingredientes para cada mob no End. Estes podem ser cozidos em comidas que podem te ajudar a navegar no End."]
+			id: "0B9F6275E5B8A1EC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "32F542B489278D1D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 6 de cada"
+			tasks: [
+				{
+					count: 6L
+					id: "00CBEAA83D97521B"
+					item: "endersdelight:mite_crust"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6A6A92F1FFFE6CC3"
+					item: "endersdelight:ender_shard"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "26F4C5ED39E26ADD"
+					item: "endersdelight:shulker_mollusk"
+					type: "item"
+				}
+			]
+			title: "Ender's Delight"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["&eOcean's Delight &radiciona drops de comida para inúmeras criaturas dentro dos oceanos."]
+			id: "54A6BA8EB4D9D0A0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7FDD9C02F14040E8"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 12 de cada"
+			tasks: [
+				{
+					count: 12L
+					id: "32214DE1C91437E1"
+					item: "oceansdelight:tentacles"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "6665C67952F470D5"
+					item: "oceansdelight:fugu_slice"
+					type: "item"
+				}
+			]
+			title: "Ocean's Delight"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54A6BA8EB4D9D0A0"]
+			description: ["Mate um &eGuardião Mestre (Elder Guardian)&r por sua carne."]
+			id: "2CABF1E53F173621"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5B0745CD95795FFE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 1x Elder Guardian Slab"
+			tasks: [{
+				id: "730C6710D5405360"
+				item: "oceansdelight:elder_guardian_slab"
+				type: "item"
+			}]
+			title: "Ocean's Delight"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4692C9713DD2AF42"]
+			id: "7AF5A5B1AA98023E"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "55966463285881E7"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "769C65C54D4F3F06"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "53C57150E21286E8"
+					item: "simplehats:acornhat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Corn Delight | Desafio"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "6D440C86B41B1326"
+					item: "corn_delight:nachos_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "7D9652FE1337B850"
+					item: "corn_delight:creamed_corn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "291930B774C74EF3"
+					item: "corn_delight:cornbread_stuffing"
+					type: "item"
+				}
+			]
+			title: "Milho na Praia"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EB5BD23AA91660A"]
+			id: "4692C9713DD2AF42"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3C0BD30967AAD0E2"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Colha 16x Maize"
+			tasks: [{
+				count: 16L
+				id: "6DE4AB2790B4DD6A"
+				item: "corn_delight:corn"
+				type: "item"
+			}]
+			title: "Corn Delight"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ABBB0CCEECA066F"]
+			description: [
+				"&eFarmer's Delight&r também fornece três recursos básicos que podem ser usados para fazer decorações, como placas suspensas, para utilidades, como cordas escaláveis e redes de segurança."
+				""
+				"&eCascas de árvore (Tree Bark)&r são obtidas usando um machado em madeira colocada em uma tábua de corte e podem ser usadas para fazer papel."
+				""
+				"&eLona (Canvas)&r é feita de palha e pode substituir o couro em todas as receitas, bem como fazer tapetes e outras decorações."
+				""
+				"&ePalha(Straw)&r é obtida cortando grama com uma faca e pode ser usada em inúmeras receitas, como criar guias."
+			]
+			id: "21923B5086A5FA57"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "72E12E723E2AABD8"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 12 de cada"
+			tasks: [
+				{
+					count: 12L
+					id: "06429DC8AFF40DD1"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "7368CBBF48669DBC"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "37C56A6E2785546D"
+					item: "farmersdelight:tree_bark"
+					type: "item"
+				}
+			]
+			title: "Farmer's Delight"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ADE97CD486AE65C"]
+			description: ["&eOstras (Clam)&r podem ser pegas e abertas em uma &etábua de corte (cutting board)&r o que às vezes pode resultar em &eperólas (pearl)&r preciosas. Mesmo que sejam inúteis, ainda são brilhantes."]
+			id: "7D68159C74783F3C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "652E1C76741A0BD5"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 16x Pearl"
+			tasks: [
+				{
+					count: 16L
+					id: "077C6F44EBD651B5"
+					item: "crabbersdelight:pearl"
+					type: "item"
+				}
+				{
+					id: "3A671249DF1D2967"
+					item: "crabbersdelight:clam"
+					type: "item"
+				}
+				{
+					id: "000A83A22EEFCDCE"
+					item: "crabbersdelight:raw_clam_meat"
+					type: "item"
+				}
+			]
+			title: "Crabber's Delight"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["462BAB455A040B51"]
+			description: [
+				"Use uma &efaca (knife)&r em uma &ePropelplant&r para coletá-las. Elas podem ser plantadas em &eNetherrack, Nicélio (Nylium), ou Rich Soul Soil&r."
+				""
+				"A &eMachete&r é uma arma melhor para usar para matar/colher &eHoglins&r do que a faca. Pode ser uma arma valiosa por si só."
+			]
+			id: "653E2D7F781C9BAA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5E694CC97506F793"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Colete 12 de cada"
+			tasks: [
+				{
+					count: 12L
+					id: "6485F6990AD70A88"
+					item: "nethersdelight:propelplant_cane"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3303D9F1991F2F22"
+					item: "nethersdelight:propelpearl"
+					type: "item"
+				}
+				{
+					id: "351886931DA09B8D"
+					item: {
+						Count: 1
+						id: "nethersdelight:iron_machete"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nether's Delight"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5949316102D9370C"]
+			id: "011AD211C3ED1131"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4009B22DF2BBA752"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "637EA3BFC4D827D4"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "0204449359E1D557"
+					item: "simplehats:batwinghat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Ender's Delight | Desafio"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "255759A8177FEF97"
+					item: "endersdelight:stuffed_shulker"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "56035CB223D949DB"
+					item: "endersdelight:chorus_pie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "6F9E45AFF4908F13"
+					item: "endersdelight:chorus_crate"
+					type: "item"
+				}
+			]
+			title: "Cozinha de Quarta Dimensão"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B9F6275E5B8A1EC"]
+			id: "5949316102D9370C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "546E551A7D24ED9B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 12 de cada"
+			tasks: [
+				{
+					consume_items: false
+					count: 12L
+					id: "32CC1798F0F08AA5"
+					item: "endersdelight:uncanny_cookies"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "4E59CC3B86AD76A8"
+					item: "endersdelight:strange_eclair"
+					type: "item"
+				}
+			]
+			title: "Ender's Delight"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CABF1E53F173621"]
+			id: "385065A469920E02"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3911D4EE37890072"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "71FF4740D9A5944D"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "024D09757C258A18"
+					item: "simplehats:fishonhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Ocean's Delight | Desafio"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "0389CBD85CDE536A"
+					item: "oceansdelight:cabbage_wrapped_elder_guardian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "70B4D6071D689C45"
+					item: "oceansdelight:guardian_soup"
+					type: "item"
+				}
+			]
+			title: "Pescetariano"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21923B5086A5FA57"]
+			id: "7C36AB84C3D94C7E"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "35A9F0A29A8D974D"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2DAF275EFE2698F9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "7AAF561D7ABC3609"
+					item: "simplehats:burgerhat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Farmer's Delight | Desafio"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "6B36090D242B5283"
+				type: "advancement"
+			}]
+			title: "Master Chef"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D68159C74783F3C"]
+			id: "22AB73CE08E50920"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "43979B63AF6DDD81"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "6F2FAAA217B76AB9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "3C117A5BF98FC8E0"
+					item: "simplehats:crabonhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Crabbers' Delight | Desafio"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "363FB7942A5A2784"
+					item: "crabbersdelight:crab_barrel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "1B11F3D9F6B611BF"
+					item: "crabbersdelight:shrimp_barrel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4BB36EE8764CC2BB"
+					item: "crabbersdelight:clam_barrel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "486D6631315BE1DA"
+					item: "crabbersdelight:clawster_barrel"
+					type: "item"
+				}
+			]
+			title: "Pesca Mortal"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["653E2D7F781C9BAA"]
+			id: "2BA7FD3E716986FC"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0917F598AA60D531"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "12342D918C5EECE5"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "26735FB6D6F53CA5"
+					item: "simplehats:pighead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Nether's Delight | Desafio"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "2D920A5A738CA083"
+					item: "nethersdelight:hoglin_trophy"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "06ABD382362B50C7"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "29937402D5A0DD78"
+					item: "nethersdelight:hoglin_hide"
+					type: "item"
+				}
+			]
+			title: "Hog Hunter"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"385065A469920E02"
+				"7AF5A5B1AA98023E"
+				"7C36AB84C3D94C7E"
+				"22AB73CE08E50920"
+				"2BA7FD3E716986FC"
+				"011AD211C3ED1131"
+				"59B2BEADD81F9F4F"
+			]
+			icon: "cuisinedelight:spatula"
+			id: "6EFCD443EA481BD4"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" concluiu o curso de culinária!\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "4B9E8B320FE7A9C0"
+					title: "Clique aqui pra deixar todos com inveja"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "13752DEC5649CA42"
+					silent: true
+					title: "750 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "154C6C5B891E8D77"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "10773484BD8B4BA3"
+					item: "simplehats:chefshat"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Achievement"
+			tasks: [{
+				id: "1B9FD9860E832B8F"
+				title: "Clique depois de ler"
+				type: "checkmark"
+			}]
+			title: "Curso de Culinária"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&eCooking for Blockheads&r torna sua experiência de cozinha muito mais fácil. Além do Farmer's Delight, que exige que você use a Panela, com Cooking for Blockheads você pode cozinhar toda a comida em um só lugar. Nenhuma malabarismo necessário."
+				""
+				"Conecte cada peça da sua cozinha com &ePisos de Cozinha (Kitchen Floor)&r."
+				""
+				"O &eForno (Oven)&r pode cozinhar vários alimentos de uma vez e pode usar energia FE se for melhorado."
+				""
+				"A &ePia (Sink)&r fornece água infinita para baldes e receitas."
+				""
+				"A &eMesa de Cozinha (Cooking Table)&r é capaz de puxar comida e ferramentas de blocos e geladeiras (que não devem ser desligadas a noite) conectados por Pisos de Cozinha."
+				""
+				"Existem mais peças para adicionar à sua cozinha também, como a &etorradeira (toaster)&r ou &eporta-tempero (spice rack)&r."
+			]
+			id: "608DF81CF3DC9A64"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "558ED4F9FEC362A0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Fabrique 1 de cada"
+			tasks: [
+				{
+					id: "2159129FA615A117"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					id: "79F74B5C61E1A868"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "69580C53D420F315"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+				{
+					id: "64EAA5048BBC7729"
+					item: "cookingforblockheads:white_kitchen_floor"
+					type: "item"
+				}
+				{
+					id: "76D917F55118DBB0"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+			]
+			title: "Cooking for Blockheads"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Esses blocos permitem que &eRefined Storage&r e &eCooking for Blockheads&r trabalhem juntos!"
+				""
+				"A &eKitchen Station&r precisa ser colocada como parte da rede de cozinha e o &eKitchen Access Point&r precisa ser colocado na rede do Refined Storage."
+				""
+				"A Kitchen Station atua como um receptor de rede do &eRefined Storage&r e precisa ser vinculada a um &eKitchen Network Card&r. Então, esse Kitchen Network Card &eprecisa ser colocado dentro&r de um &eKitchen Access Point&r, que atua como um transmissor da rede do Refined Storage."
+				""
+				"Uma vez que tudo esteja conectado, você poderá &econsumir itens&r da sua rede do Refined Storage diretamente da sua mesa de cozinha."
+			]
+			id: "712861ACFF721889"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "24209232842EA117"
+				silent: true
+				title: "250 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Fabrique 1 de cada"
+			tasks: [
+				{
+					id: "7208A57F50772155"
+					item: "refinedcooking:kitchen_station"
+					type: "item"
+				}
+				{
+					id: "7EC44290F88F0847"
+					item: "refinedcooking:kitchen_access_point"
+					type: "item"
+				}
+				{
+					id: "33B3A88E037420CA"
+					item: "refinedcooking:kitchen_network_card"
+					type: "item"
+				}
+			]
+			title: "Refined Cooking"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["&eUndergarden Delight&r adiciona novas &efacas e algumas receitas de comida&r aos itens de comida do Undergarden!"]
+			id: "4D0073E78182BB97"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2D67042E65723B24"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Fabrique 1 de cada item"
+			tasks: [
+				{
+					id: "7CF32BD5AE02F374"
+					item: {
+						Count: 1
+						id: "undergardendelight:cloggrum_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6875091349C58DDD"
+					item: {
+						Count: 1
+						id: "undergardendelight:frosteel_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Undergarden Delight"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D0073E78182BB97"]
+			description: [
+				"Você pode filetar carne de &eGwibling&r e cozinhá-la para obter &eCooked Gwiblin Fillets&r!"
+				""
+				"&eShimmerpearls&r podem ser colhidas de &eTall Shimmerweed&r em uma &eTábua de Corte (Cutting Board)&r."
+				""
+				"&eGloomgourd Pie&r pode ser feita de vários ingredientes do &eUndergarden&r!"
+			]
+			id: "5F82117320E8D3BF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "15AF47C538582C2F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Obtenha 4 de cada"
+			tasks: [
+				{
+					count: 4L
+					id: "08DF0C1DFEDC9A79"
+					item: "undergardendelight:cooked_gwibling_fillet"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7789DCA36ADE14B3"
+					item: { Count: 3, id: "undergardendelight:shimmerpearl" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "401618CF60A9128C"
+					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+			]
+			title: "Undergarden Delight"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F82117320E8D3BF"]
+			id: "59B2BEADD81F9F4F"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "249A9B7CB2139773"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2464BFE85C1E18C7"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "23EBE79D9F44BD08"
+					item: "simplehats:burgerhat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Undergarden Delight | Desafio"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "7D498E9477AA7F9D"
+					item: { Count: 16, id: "undergardendelight:depth_shroom_cream_soup" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "549E7B220E7490F8"
+					item: { Count: 16, id: "undergardendelight:gronglunch" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "52FE108B489F8995"
+					item: { Count: 16, id: "undergardendelight:glitterdish" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "70C9B866C12AAB43"
+					item: { Count: 16, id: "undergardendelight:blood_tomato_soup" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "426ED83EB7A9B349"
+					item: "undergardendelight:mogsteak"
+					type: "item"
+				}
+			]
+			title: "Conhecedor do Undergarden"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Delícias Culinárias"
+}

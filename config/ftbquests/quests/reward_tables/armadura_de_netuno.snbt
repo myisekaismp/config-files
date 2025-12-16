@@ -1,0 +1,44 @@
+{
+	id: "62A0BE09CBEB1D0C"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Armadura de Netuno"
+}

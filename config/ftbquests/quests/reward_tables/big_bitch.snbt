@@ -1,0 +1,70 @@
+{
+	icon: {
+		Count: 1
+		id: "aquaculture:neptunium_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "06F0F27A3166249E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "aquaculture:neptunium_fillet_knife" }
+	]
+	title: "Equipamentos de Netuno"
+}

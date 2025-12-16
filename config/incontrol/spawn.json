@@ -1,0 +1,116 @@
+[
+# oldSpawn Deny-list
+  {
+    "mob": "goblintraders:goblin_trader",
+    "area": "overworld_spawn1",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "kobolds:kobold_rascal",
+    "area": "overworld_spawn1",
+    "when": "onjoin",
+    "result": "deny"
+  },
+
+# Deny e controle geral
+  {
+    "mob": "mutantmonsters:body_part",
+    "when": "position",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "minheight": 125,
+    "mob": "alexsmobs:fly",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:bat",
+    "mincount": 10,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:salmon",
+    "mincount": 10,
+    "result": "deny"
+  },
+
+
+
+# Alex's Mobs Deny-list
+  {
+    "mob": "alexsmobs:fly",
+    "mincount": 10,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:lobster",
+    "mincount": 10,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:rocky_roller",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:centipede_head",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:murmur",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:blank",
+    "mob": "alexsmobs:bunfungus",
+    "when": "onjoin",
+    "result": "deny"
+  },
+
+
+# Golem corno du caraio
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "riskofrain_mobs:stone_golem_entity",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "riskofrain_mobs:stone_golem_entity",
+    "when": "onjoin",
+    "result": "deny"
+  },
+
+
+# Padrão do CTE
+  {
+    "dimension": "minecraft:overworld",
+    "mob": ["born_in_chaos_v1:lifestealer", "born_in_chaos_v1:lifestealer_true_form", "born_in_chaos_v1:nightmare_stalker", "born_in_chaos_v1:supreme_bonescaller"],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["born_in_chaos_v1:krampus", "born_in_chaos_v1:krampus_henchman"],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "minheight": 25,
+    "mob": "born_in_chaos_v1:mother_spider",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "minecraft:snow_golem",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]
