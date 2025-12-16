@@ -1,0 +1,27 @@
+{
+  "blacklisted_items": [
+    "//Items here will be unusable completely",
+    "examplemod:example_item",
+    "bountiful:bountyboard",
+	"furniture:trash_bag"
+  ],
+  "only_disable_interactions": [
+    "//Items here will not be able to be right-clicked (Interact)",
+    "born_in_chaos_v1:frostbitten_blade"
+  ],
+  "only_disable_attacks": [
+    "//Items here will not be able to be used to attack",
+    "examplemod:example_item",
+    "farm_and_charm:pitchfork"
+  ],
+  "only_disable_recipes": [
+    "//Items here will get their recipes disabled",
+    "//Keep in mind this already is applied to blacklisted items",
+    "examplemod:example_item",
+    "nomadictents:tiny_bedouin",
+    "nomadictents:tiny_indlu",
+    "nomadictents:tiny_shamiyana",
+    "nomadictents:tiny_tepee",
+    "nomadictents:tiny_yurt"
+  ]
+}

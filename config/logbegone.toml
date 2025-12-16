@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["[Render thread/ERROR] [mojang/Window]: ########## GL ERROR ##########", "[Render thread/ERROR] [mojang/Window]: @ Render", "[Render thread/ERROR] [mojang/Window]: 65539: Invalid key -1", "Ignoring ingredient that isn't on the server", "Loading JEI data for", "Collecting data for", "If this is a development environment you can ignore this message", "will NOT be loaded as mod", "does not respect server-side emote tracking", "Detected setBlock in a far chunk", "forge.net.mca.entity.ZombieVillagerEntityMCA", "[de.or.pr.co.ProjectVibrantJourneys/]: BlockPos", "does not specify \"minVersion\" property", "as it's dev only", "will NOT be loaded as mod", "as it is client side only", "Requires migration to", "Please note that this configuration file only includes confirmed entity", "Registry entry listened Registry Entry", "Found status:", "Starting version check", "Skipping loading recipe", "Parsing error loading recipe", "[YAWP/]: Loading", "[YAWP/]: Loaded", "Failed to process update information", "[ModdingLegacy/blue_skies/]: Sending", "Requested save"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+
