@@ -1,0 +1,34 @@
+{
+  "id": "blood_magic",
+  "manaMulti": 1.2,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 7,
+      "min": 6,
+      "stat": "skill_damage_per_health"
+    },
+    {
+      "type": "FLAT",
+      "max": 7,
+      "min": 6,
+      "stat": "summon_damage_per_health"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -20.0,
+      "stat": "int_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": -20.0,
+      "min": -40.0,
+      "stat": "inc_leech"
+    }
+  ],
+  "style": "STR",
+  "weight": 1000
+}

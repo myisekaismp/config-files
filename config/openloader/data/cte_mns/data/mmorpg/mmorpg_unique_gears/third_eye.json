@@ -1,0 +1,27 @@
+{
+    "base_gear": "elytra",
+    "flavor_text": "",
+    "force_item_id": "botania:third_eye",
+    "guid": "third_eye",
+    "league": "",
+    "min_drop_lvl": 50,
+    "min_tier": 0,
+    "rarity": "unique",
+    "replaces_name": true,
+    "runable": false,
+    "unique_stats": [
+        {
+            "max": 3,
+            "min": 3,
+            "stat": "bonus_exp",
+            "type": "FLAT"
+        },
+        {
+            "max": 3,
+            "min": 3,
+            "stat": "move_speed",
+            "type": "FLAT"
+        }
+    ],
+    "weight": 0
+}
