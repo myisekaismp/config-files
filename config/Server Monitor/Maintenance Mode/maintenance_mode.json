@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "message": "This server is currently in maintenance mode! Please check back later.",
+  "motd": "This server is currently undergoing maintenance!",
+  "doBackup": false,
+  "maintenanceIcon": "config/Server Monitor/Maintenance Mode/maintenance-icon.png",
+  "allowedUsers": []
+}

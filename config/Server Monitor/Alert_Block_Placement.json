@@ -1,0 +1,18 @@
+{
+  "enableBlockAlerts": true,
+  "BlockPlacement": [
+    "minecraft:tnt",
+    "minecraft:bedrock",
+    "minecraft:command_block",
+    "minecraft:structure_block",
+    "minecraft:barrier",
+    "chunkloaders:single_chunk_loader",
+    "chunkloaders:basic_chunk_loader",
+    "chunkloaders:advanced_chunk_loader",
+    "chunkloaders:ultimate_chunk_loader",
+    "waystones:waystone",
+    "waystones:mossy_waystone",
+    "waystones:sandy_waystone",
+    "end_crystal"
+  ]
+}

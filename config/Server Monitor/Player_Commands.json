@@ -1,0 +1,21 @@
+{
+  "Enabled_for_Players": {
+    "SpawnCommand": false,
+    "RtpCommand": false,
+    "HomeCommand": true,
+    "BackCommand": true,
+    "TpaCommand": false,
+    "TphereCommand": false
+  },
+  "cooldowns": {
+    "spawnCooldown": 0,
+    "rtpCooldown": 0,
+    "homeCooldown": 0,
+    "backCooldown": 0,
+    "tpaCooldown": 0,
+    "tphereCooldown": 0
+  },
+  "maxHomes": 100,
+  "rtpMaxRange": 10000,
+  "tpaTimeoutSeconds": 30
+}
