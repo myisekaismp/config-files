@@ -3,11 +3,13 @@
 	#Set to true if experience cost should be inverted, meaning the shorter the distance, the more expensive. Can be used to encourage other methods for short-distance travel.
 	inverseXpCost = false
 	#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
-	blocksPerXpLevel = 1000
+	##-- Ajustado para que o custo só apareça acima de 100.000 blocos (custo base = 1 nível aos 100.000 blocos)
+	blocksPerXpLevel = 250000
 	#The minimum base xp cost (may be subceeded by multipliers defined below)
 	minimumBaseXpCost = 0.0
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
-	maximumBaseXpCost = 0.0
+	##-- Ajustado para permitir custos (0 = desabilitado, valor alto permite custos altos)
+	maximumBaseXpCost = 1000.0
 	#How much xp is needed per leashed animal to travel with you
 	xpCostPerLeashed = 0
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
@@ -17,7 +19,8 @@
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	warpStoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
-	waystoneXpCostMultiplier = 1.0
+	##-- Ajustado para 50x: 100k blocos = 50 níveis, 200k blocos = 100 níveis (linear)
+	waystoneXpCostMultiplier = 50.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	sharestoneXpCostMultiplier = 0.5
 	#The multiplier applied to the base xp cost when teleporting from a portstone.
@@ -94,9 +97,9 @@
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
 	customWaystoneNames = []
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
-	spawnInVillages = true
+	spawnInVillages = false
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
-	forceSpawnInVillages = true
+	forceSpawnInVillages = false
 
 [client]
 	#If enabled, the text overlay on waystones will no longer always render at full brightness.

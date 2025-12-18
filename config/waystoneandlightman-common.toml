@@ -1,20 +1,35 @@
 #是否启用金钱消耗
+#Ativar consumo de dinheiro
 isEnableMoneyCost = true
+
 #每一百米所需消耗的最低等级货币(将自动根据莱特曼货币配置换算)
+#Quantidade mínima de moeda de nível mais baixo consumida a cada 100 metros
+#(será automaticamente convertida conforme a configuração do sistema de moedas Lightman)
 #Range: > 0
 moneyCostPerHundredMeter = 1
+
 #是否向上取整，即不足一百米按一百米计算
+#Arredondar para cima (distâncias menores que 100 metros serão calculadas como 100 metros)
 roundUp = true
+
 #每单次传送所需的最低消耗
+#Custo mínimo por teleporte
 #Range: > -1
 minimumCost = 0
+
 #每单次传送所的最大消耗上限
+#Limite máximo de custo por teleporte
 #Range: > -1
 maximumCost = 10
-#是否启用控制台日志
-enableConsoleLog = true
-#是否启用传送消耗提示
-enableCostTip = true
-#是否强制启用中文语言
-forceEnableChineseLanguage = false
 
+#是否启用控制台日志
+#Ativar logs no console
+enableConsoleLog = true
+
+#是否启用传送消耗提示
+#Ativar aviso de custo de teleporte
+enableCostTip = true
+
+#是否强制启用中文语言
+#Forçar uso do idioma chinês
+forceEnableChineseLanguage = false
