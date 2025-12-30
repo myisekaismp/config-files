@@ -1,0 +1,122 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&2l&ainktr.ee/myisekaismp'
+  - '&al&2i&anktr.ee/myisekaismp'
+  - '&ali&2n&aktr.ee/myisekaismp'
+  - '&alin&2k&atr.ee/myisekaismp'
+  - '&alink&2t&ar.ee/myisekaismp'
+  - '&alinkt&2r&a.ee/myisekaismp'
+  - '&alinktr&2.&aee/myisekaismp'
+  - '&alinktr.&2e&ae/myisekaismp'
+  - '&alinktr.e&2e&a/myisekaismp'
+  - '&alinktr.ee&2/&amyisekaismp'
+  - '&alinktr.ee/&2m&ayisekaismp'
+  - '&alinktr.ee/m&2y&aisekaismp'
+  - '&alinktr.ee/my&2i&asekaismp'
+  - '&alinktr.ee/myi&2s&aekaismp'
+  - '&alinktr.ee/myis&2e&akaismp'
+  - '&alinktr.ee/myise&2k&aaismp'
+  - '&alinktr.ee/myisek&2a&aismp'
+  - '&alinktr.ee/myiseka&2i&asmp'
+  - '&alinktr.ee/myisekai&2s&amp'
+  - '&alinktr.ee/myisekais&2m&ap'
+  - '&alinktr.ee/myisekaism&2p'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+  - '&alinktr.ee/myisekaismp'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW
+tips:
+  change-interval: 5000
+  texts:
+    - "&7O Tab e o mini-mapa são &lOFF-RP"
+    - "&7Chats DAMAGE e LOOT são &lOFF-RP"
